@@ -23,7 +23,7 @@ https://github.com/migayalach/Exercise-Array-Java-OOP
 3. Abre el proyecto en tu entorno de desarrollo preferido.
 4. Ejecuta el archivo `Main.java` ubicado en el paquete `array`.
 5. Guia de ejerccios =>
-    ./flowchart/practica.pdf
+    ./flowchart/Exercises.png
 
 *Espero que este proyecto sea beneficioso para aquellos programadores que están dando sus primeros pasos al igual que yo en Java y desean fortalecer sus habilidades en POO y lógica de programación.*
-<br><br><img src="./flowchart/Exercises.png" alt="Lista de ejerccios" width="500"/><br><br>
+<br><br><img src="./flowchart/Exercises.png" alt="Lista de ejerccios" width="700"/><br><br>
