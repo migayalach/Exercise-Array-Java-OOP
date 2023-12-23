@@ -46,19 +46,36 @@ public class Main {
                 exercise.showArray();
                 break;
             case 3:
-                System.out.println("3");
+                exercise = new ExerciseThree(dataInput());
+                exercise.ejecution();
+                exercise.showArray();
                 break;
             case 4:
-                System.out.println("4");
+                exercise = new ExerciseFour(dataInput());
+                exercise.fillRandom();
+                exercise.showArray();
+                System.out.print("\nEl vector volteado es: \n");
+                exercise.ejecution();
+                exercise.showArray();
                 break;
             case 5:
-                System.out.println("5");
+                exercise = new ExerciseFive(dataInput());
+                exercise.fillRandom();
+                exercise.showArray();
+                System.out.print("\nEl nuevo vector es: \n");
+                exercise.ejecution();
+                exercise.showArray();
                 break;
             case 6:
-                System.out.println("6");
+                exercise = new ExerciseSix(dataInput());
+                exercise.fillRandom();
+                exercise.showArray();
+                System.out.println("");
+                exercise.ejecution();
+                exercise.showArray();
                 break;
             default:
-                throw new AssertionError();
+                return;
         }
     }
 

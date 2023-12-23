@@ -4,6 +4,8 @@
  */
 package array;
 
+import java.util.Random;
+
 /**
  *
  * @author miguel
@@ -12,6 +14,7 @@ public abstract class Exercise {
 
     protected int[] vector;
     protected int size;
+    protected int limit = 10;
 
     public Exercise(int size) {
         this.vector = new int[100];
@@ -24,6 +27,15 @@ public abstract class Exercise {
         int i;
         for (i = 1; i <= size; i++) {
             System.out.print("[" + vector[i] + "]\t");
+        }
+    }
+
+    public void fillRandom() {
+        int i, num;
+        Random random = new Random();
+        for (i = 1; i <= size; i++) {
+            num = random.nextInt(limit);
+            vector[i] = num;
         }
     }
 
