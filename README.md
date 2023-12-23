@@ -26,3 +26,4 @@ https://github.com/migayalach/Exercise-Array-Java-OOP
     ./flowchart/practica.pdf
 
 *Espero que este proyecto sea beneficioso para aquellos programadores que están dando sus primeros pasos al igual que yo en Java y desean fortalecer sus habilidades en POO y lógica de programación.*
+<img src="./flowchart/exercises.png" alt="Lista de ejerccios" width="375"/><br><br>
