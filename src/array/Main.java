@@ -36,13 +36,14 @@ public class Main {
         Exercise exercise = null;
         switch (option) {
             case 1:
-
                 exercise = new ExerciseOne(dataInput());
                 exercise.ejecution();
                 exercise.showArray();
                 break;
             case 2:
-                System.out.println("2");
+                exercise = new ExerciseTwo(dataInput());
+                exercise.ejecution();
+                exercise.showArray();
                 break;
             case 3:
                 System.out.println("3");
